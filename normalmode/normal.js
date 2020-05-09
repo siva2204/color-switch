@@ -88,7 +88,7 @@ function Ball(x,y,dy,radius,color) {
  }
 }
 var radius=10;
-var ball=new Ball(cw/2,ch-2*radius,1.25,radius,"rgb(50, 219, 240)");
+var ball=new Ball(cw/2,ch-2*radius,1.45,radius,"rgb(50, 219, 240)");
 
 var anglecw=0;
 //obstacles
