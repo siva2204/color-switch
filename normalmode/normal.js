@@ -53,8 +53,17 @@ function Ball(x,y,dy,radius,color) {
   }
   this.update=function () {
       if (this.y+this.radius<ch && gamestart==true) {
+        if (movedownobstacles) {
+          this.y+=2
 
-        this.y+=this.dy;
+        }
+        else {
+              this.y+=this.dy;
+
+        }
+        
+
+       
       }
 
 
