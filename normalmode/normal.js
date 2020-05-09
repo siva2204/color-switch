@@ -2,7 +2,6 @@ var canvas=document.getElementById('canvas');
 
 var c=canvas.getContext("2d");
 
-
 var cw=canvas.width;
 var ch=canvas.height;
 
