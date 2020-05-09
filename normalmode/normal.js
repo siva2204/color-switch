@@ -16,7 +16,7 @@ var highscore=0;
 
 var colors=["rgb(50, 219, 240)","rgb(144, 13, 255)","rgb(255, 1, 129)","rgb(250, 225, 0)"];
 
-canvas.addEventListener("click",function() {
+canvas.addEventListener("ontouchend",function() {
   sound();
   ball.up();
 
