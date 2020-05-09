@@ -16,16 +16,18 @@ var highscore=0;
 
 var colors=["rgb(50, 219, 240)","rgb(144, 13, 255)","rgb(255, 1, 129)","rgb(250, 225, 0)"];
 
-canvas.addEventListener("ontouchend",function() {
-  sound();
-  ball.up();
-
-});
 canvas.addEventListener("click",function() {
   sound();
   ball.up();
 
 });
+
+canvas.addEventListener("ontouchend",function() {
+  sound();
+  ball.up();
+
+});
+
 
 //distance b/w two points
 function distancebwpoints(x1,y1,x2,y2) {
