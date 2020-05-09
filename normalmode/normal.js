@@ -21,6 +21,11 @@ canvas.addEventListener("ontouchend",function() {
   ball.up();
 
 });
+canvas.addEventListener("click",function() {
+  sound();
+  ball.up();
+
+});
 
 //distance b/w two points
 function distancebwpoints(x1,y1,x2,y2) {
