@@ -65,5 +65,8 @@ a:hover{
  #top-container{
   font-size: 45px;
  }
+ #down-container{
+  top: 225px;
+ }
 
 }
