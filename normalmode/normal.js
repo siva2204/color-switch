@@ -225,7 +225,7 @@ var imgdata;
 
 function colorcheck () {
  c.save();
- imgdata=c.getImageData(ball.x-10,ball.y-10,16,16);
+ imgdata=c.getImageData(ball.x-10,ball.y-10,20,20);
 
  for (var i = 0; i < imgdata.data.length; i+=4) {
    if (imgdata.data[0+i]===255 || imgdata.data[0+i]===144 || imgdata.data[0+i]===250) {
