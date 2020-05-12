@@ -312,7 +312,7 @@ function gameoverdisplay() {
        gameoversound();
        c.save();
        c.beginPath();
-       c.fillStyle="rgba(64, 64, 64,0.8)";
+       c.fillStyle="rgba(64, 64, 64,1)";
        c.fillRect(0,0,500,600);
        c.beginPath();
        c.font="60px Noto Sans KR";
