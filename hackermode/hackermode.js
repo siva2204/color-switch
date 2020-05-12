@@ -67,7 +67,7 @@ function Ball(x,y,radius,color) {
   }
   this.up=function() {
     if (this.y>ch/2-100 && gamestart==true) {
-      this.y-=46;
+      this.y-=50;
 
     }
 
