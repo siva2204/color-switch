@@ -39,8 +39,8 @@ function distancebwpoints(x1,y1,x2,y2) {
 function Ball(x,y,radius,color) {
   this.x=x;
   this.y=y;
-  this.dy=1.5;
-  this.dy1=2;
+  this.dy=1.2;
+  this.dy1=1.7;
   this.radius=radius;
   this.color=color;
   this.draw=function () {
