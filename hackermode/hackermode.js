@@ -40,7 +40,7 @@ function Ball(x,y,radius,color) {
   this.x=x;
   this.y=y;
   this.dy=1.2;
-  this.dy1=1.7;
+  this.dy1=1.6;
   this.radius=radius;
   this.color=color;
   this.draw=function () {
