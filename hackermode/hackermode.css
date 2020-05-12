@@ -1,0 +1,67 @@
+  canvas {
+    padding: 0;
+    margin:10px auto;
+    display: block;
+    width: 500px;
+    height: 600px;
+    cursor: pointer;
+    border:3px solid rgb(204, 204, 204);
+    border-radius: 3px;
+  }
+body{
+  background-color: #333;
+
+
+}
+
+p{
+  text-align: center;
+}
+button{
+  padding: 5px 10px;
+  text-align: center;
+  background-color:rgb(39, 39, 39);
+  color: rgb(204, 204, 204);
+  font-family:Noto Sans KR,sans-serif;
+  border:2px solid  rgb(204, 204, 204);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 25px;
+  visibility: hidden;
+}
+button:hover{
+  color:rgb(39, 39, 39);
+  background-color: rgb(204, 204, 204);
+  border: 2px solid rgb(39, 39, 39);
+  cursor: pointer;
+
+}
+.container{
+  width: 500px;
+  margin:0 auto;
+  border:3px solid rgb(204, 204, 204);
+  text-align: center;
+  color: rgb(204, 204, 204);
+  border-radius:3px;
+}
+.item{
+  display: inline-block;
+  font-family:Noto Sans KR,sans-serif;
+  font-size: 20px;
+  padding: 0px 25px;
+  text-align: center;
+  font-weight: bold;
+}
+#item1{
+  float:left;
+
+}
+#item2{
+  float:center;
+}
+#item3{
+  float: right;
+}
+#pause{
+  cursor: pointer;
+}
